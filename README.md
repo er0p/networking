@@ -224,6 +224,7 @@
   * no ip name-server *server-address1* [*server-address2*] - удаление DNS-сервера
  * ip routing - включение режима маршрутизации 
  * no ip routing - отключение режима маршрутизации
+2. Написать [BPF-фильтр] (http://en.wikipedia.org/wiki/Berkeley_Packet_Filter) для [tcpdump] (http://www.tcpdump.org/), обнаруживающий использование веб-клиентом или веб-сервером шифра RC4. 
 
 ## Материалы
 
