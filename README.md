@@ -237,21 +237,24 @@
   * в ЦОД развернуто 100 серверов 
   * схема подключения филиалов и ЦОД к ЦО - звезда
   * руководство компании задумывается о строительстве нового резервного ЦОДа
- Учесть, что для организации каналов связи, подключения средств защиты, управления сетевым оборудованием, настройки маршрутизации и т.д. также необходимо выделять IP-адреса.
-4. Проанализировать [трассировки wireshark] (/files) и объяснить, что проиходит в сети.
+ Учесть, что для организации каналов связи, подключения средств защиты, управления сетевым оборудованием, настройки маршрутизации и т.д. также необходимо выделять IP-адреса
+4. Проанализировать [трассировки wireshark] (/files) и объяснить, что проиходит в сети
+5. Используя [Scapy] (http://www.secdev.org/projects/scapy/) написать скрипт, выполняющий [идентификацию] (http://nmap.org/book/man-host-discovery.html) узла по его DNS-имени или IP-адресу.
+6. Настроить тройной [GRE] (http://en.wikipedia.org/wiki/Generic_Routing_Encapsulation) туннель (GRE-over-GRE-over-GRE) между двумя узлами под управлением GNU/Linux. Экспериментально определить максимально возможную длинну передаваемых данных
 
 ## Материалы
 
 ### Обязательные
 * [У. Ричард Стивенс. Протоколы TCP/IP в подлиннике. Практическое руководство] (http://www.labirint.ru/books/23432/) 
+* [Kevin R. Fall, W. Richard Stevens. TCP/IP Illustrated, Volume 1: The Protocols. Second edition] (http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_sim_b_8?ie=UTF8&refRID=0ZFEHB43F6Q7QWH4MQXC)
 
 ### Рекомендуемые
-* [Kevin R. Fall, W. Richard Stevens. TCP/IP Illustrated, Volume 1: The Protocols. Second edition] (http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_sim_b_8?ie=UTF8&refRID=0ZFEHB43F6Q7QWH4MQXC) 
-* В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание
 * Э. Таненбаум, Д. Уезеролл. Компьютерные сети. 5-е издание
 * [Stanford Online. An Introduction to Computer Networks] (http://online.stanford.edu/content/introduction-computer-networks)
 * [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
+* [Сети для самых маленьких на Хабрахабр] (http://linkmeup.ru/blog/11.html)
+* [Каверзные сетевые вопросы на Хабрахабр] (http://habrahabr.ru/post/189268/)
 
 ### Справочные
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
-
+* В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание
