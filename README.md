@@ -36,7 +36,7 @@
     *  Skype
     *  BitTorrent
   * [Несколько миллисекунд HTTPS соединения] (http://habrahabr.ru/post/191954/)
-1. Технология Ethernet
+1. Технологии ЛВС
   * Обзор технологий ЛВС
   * Архитектура Ethernet
   * Метод CSMA/CD
@@ -44,7 +44,12 @@
   * Формат кадров
   * Основные виды Ethernet
   * Коммутация в Ethernet (IEEE 802.1D)
-1. Технология Wi-Fi  
+  * Виды Ethernet (Fast Ethernet, Gigabit Ethernet, ...)
+  * Атака MAC Spoofing
+  * Атака MAC Flooding
+  * Сетевые анализаторы и снифферы
+  * Защита от снифферов
+1. Технологии БЛВС  
   * Архитектруа IEEE 802.11
   * Проблема скрытого узла
   * Метод CSMA/CA
@@ -52,16 +57,17 @@
   * Формат кадров
 1. Протокол STP
   * Возникновение петель на канальном уровне
-  * Формат кадров
-  * Механизмы оптимизации и надежности STP
-    * PortFast
-    * RootGuard
-    * BPDUGuard
-    * BPDUFilter
-    * LoopGuard
+  * Формат кадров BPDU
   * Основные этапы STP
   * Управление протоколом STP
   * Особенности протокола Rapid STP
+  * Атаки на протокол STP
+  * Механизмы оптимизации и защиты STP
+    * Port Fast
+    * BPDU Guard    
+    * Root Guard
+    * Loop Guard
+    * BPDU Filter
 1. Технология VLAN
   * Определение VLAN
   * Виды VLAN
@@ -69,11 +75,12 @@
   * Основные протоколы VLAN (VTP, DTP и VMPS)
   * Формат кадров IEEE 802.1Q
   * Маршрутизация VLAN
+  * Атака VLAN Hopping
 1. Протокол IP
   * Функции протокола
   * Свойства протокола
   * Метод предотвращения петель
-  * Фрагментация
+  * Фрагментация дейтаграмм
   * Протокол IPv4
     * Адресация
     * Формат дейтаграмм
@@ -84,12 +91,14 @@
     * Протокол обнаружения соседей
   * Безклассовая междоменая маршрутизация (CIDR)
   * Адмиистрирование пространства IP-адресов
+  * Атака IP Spoofing
 1. Протоколы ARP/RARP
   * Функции протокола ARP
   * Свойства протокола ARP
   * Формат сообщений
   * Схема протокола ARP
   * Proxy-ARP
+  * Атака ARP Spoofing
   * GARP
   * Схема пртокола RARP
 1. Конфигурирование сетевых интерфейсов
@@ -98,17 +107,18 @@
     * Функции протокола
     * Схема работы протокола
     * Формат сообщений
-  1. Маршрутизация
+    * Атаки на DHCP
+1. Маршрутизация
   * Основные термины
     * Коммутация
     * Маршрутизация
     * Автономная система
     * Конвергенция
     * Метрики
-  * Протоколы маршрутизации
+  * Классификация протоколов маршрутизации
     * Дистанционно-векторные протоколы, протоколы состояния связей, гибридные
     * Протоколы внутренней и внешней маршрутизации
-  * Подходы к маршрутизации
+  * Методы маршрутизации
     * Flooding
     * Маршрутизация от источника
     * Ретрансляция (forwarding)
@@ -145,6 +155,7 @@
     * Функции протоколов 
     * Протоколы VRRP/HSRP
     * Протокол GLBP
+  * Защита маршрутизации
 1. Протокол ICMP
   * Функции протокола
   * Свойства протокола
@@ -154,11 +165,14 @@
     * Ping
     * Traceroute
   * Механизмы перенаправления 
+  * Атака SMURF
+  * Атака ICMP Redirect
 1. Протокол UDP
   * Функции протокола
   * Свойства протокола
   * Формат дейтаграмм
   * Сетевые приложения на основе UDP
+  * Сканирование портов UDP
 1. Протокол TCP
   * Функции протокола
   * Свойства протокола
@@ -176,6 +190,10 @@
   * Управление перегрузками
     * Tahoe
     * Reno
+   * Атака TCP Hijacking
+   * Сканирование портов TCP
+   * Атака SYN Flooding
+   * TCP Syncookies
 1. Система DNS
   * Функции протокола
   * Свойства протокола
@@ -184,6 +202,8 @@
   * Общая схема разрешения имен
   * Формат сообщений
   * Типы серверов имен
+  * Атаки на DNS
+  * DDoS-атаки на основе DNS
 1. Сетевая трансляция адресов (NAT)
   * Функции NAT
   * Виды NAT
@@ -255,17 +275,20 @@
 
 ## Материалы
 
-### Обязательные
+### Обязательная к прочтению литература
 * [У. Ричард Стивенс. Протоколы TCP/IP в подлиннике. Практическое руководство] (http://www.labirint.ru/books/23432/) 
+
+### Литература
 * [Kevin R. Fall, W. Richard Stevens. TCP/IP Illustrated, Volume 1: The Protocols. Second edition] (http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_sim_b_8?ie=UTF8&refRID=0ZFEHB43F6Q7QWH4MQXC)
-
-### Рекомендуемые
-* Э. Таненбаум, Д. Уезеролл. Компьютерные сети. 5-е издание
-* [Stanford Online. An Introduction to Computer Networks] (http://online.stanford.edu/content/introduction-computer-networks)
-* [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
-* [Сети для самых маленьких на Хабрахабр] (http://linkmeup.ru/blog/11.html)
+* [Э. Таненбаум, Д. Уезеролл. Компьютерные сети. 5-е издание] (http://www.ozon.ru/context/detail/id/20216983/)
 * [Каверзные сетевые вопросы на Хабрахабр] (http://habrahabr.ru/post/189268/)
+* [В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание](http://www.ozon.ru/context/detail/id/20217199/)
+* [Сети для самых маленьких на Хабрахабр] (http://linkmeup.ru/blog/11.html)
 
-### Справочные
+### Справочная литература
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
-* В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание
+
+### Видео
+*[Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks) (http://www.youtube.com/user/NetworKingInc)
+*[Stanford Online. An Introduction to Computer Networking] (https://class.stanford.edu/courses/Engineering/Networking/Winter2014/)
+*[Cisco CCNA Course] (http://www.youtube.com/user/NetworKingInc)
