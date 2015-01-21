@@ -348,6 +348,6 @@
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
 
 ### Видео
-* [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks) (http://www.youtube.com/user/NetworKingInc)
+* [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
 * [Stanford Online. An Introduction to Computer Networking] (https://class.stanford.edu/courses/Engineering/Networking/Winter2014/)
 * [Cisco CCNA Course] (http://www.youtube.com/user/NetworKingInc)
