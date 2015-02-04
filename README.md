@@ -133,7 +133,7 @@
     * Ретрансляция (forwarding)
       * Статическая 
       * Динамическая
-  * Алгоритм поиска ([Longest prefix match](http://en.wikipedia.org/wiki/Longest_prefix_match))  
+  * Алгоритм поиска [Longest prefix match](http://en.wikipedia.org/wiki/Longest_prefix_match)  
   * Общая схема ретрансляции (forwarding) дейтаграмм
   * Основные методы ретрансляции
     * Process Switching
