@@ -331,6 +331,7 @@
 * [Каверзные сетевые вопросы на Хабрахабр] (http://habrahabr.ru/post/189268/)
 * [В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание](http://www.ozon.ru/context/detail/id/20217199/)
 * [Сети для самых маленьких на Хабрахабр] (http://linkmeup.ru/blog/11.html)
+* [What happens when you type google.com into your browser's address box and press enter?](https://github.com/alex/what-happens-when)
 
 ### Справочная литература
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
