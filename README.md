@@ -180,6 +180,7 @@
 
 ### Справочная литература
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
+* [Wireshark Sample Captures](http://wiki.wireshark.org/SampleCaptures)
 
 ### Видео
 * [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
