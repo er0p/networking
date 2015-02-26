@@ -185,3 +185,4 @@
 * [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
 * [Stanford Online. An Introduction to Computer Networking] (https://class.stanford.edu/courses/Engineering/Networking/Winter2014/)
 * [Cisco CCNA Course] (http://www.youtube.com/user/NetworKingInc)
+* [David Wetherall. Video lectures for Computer Networks 5/E] (http://media.pearsoncmg.com/ph/streaming/esm/tanenbaum5e_videonotes/tanenbaum_videoNotes.html)
