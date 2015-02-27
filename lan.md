@@ -13,10 +13,28 @@
       * 1G Ethernet
       * 10G Ethernet
       * 40G/100G Ethernet
-    * Коммутация в Ethernet (IEEE 802.1D)
-    * Атаки в Ethernet
+1. Коммутация в Ethernet (IEEE 802.1D)
+   * Метод коммутации IEEE 802.1D
+   * Атаки на метод коммутации
       * MAC Spoofing
       * MAC Flooding
+1. Коммутация VLAN (IEEE 801.1Q)
+   * Определение VLAN
+   * Основные термины
+      * Access port
+      * Trunk port
+      * Native VLAN
+   * Метод коммутации IEEE 802.1Q
+   * Основные протоколы конфигурирования VLAN
+      * VTP
+      * DTP
+      * VMPS
+   * Формат кадров IEEE 802.1Q
+   * Маршрутизация VLAN
+   * Атаки на VLAN
+      * Базовая атака VLAN Hopping
+      * Двойная инкапсуляция
+      * Создание транкового порта через DTP
 1. Технология Wi-Fi
     * Архитектруа IEEE 802.11
     * Проблема скрытого узла
@@ -25,3 +43,6 @@
     * Формат кадров
   
 # Материалы
+
+* [Understanding VLAN Hopping Attacks] (http://www.ccnpguide.com/understanding-vlan-hopping-attacks/)
+* [Сети для самых маленьких. Коммутация] (http://habrahabr.ru/post/138043/)
