@@ -30,6 +30,7 @@
       * DTP
    * Формат кадров IEEE 802.1Q
    * Маршрутизация VLAN
+   * Private VLANs
    * Атаки на VLAN
       * Базовая атака VLAN Hopping
       * Двойная инкапсуляция
@@ -45,3 +46,4 @@
 
 * [Understanding VLAN Hopping Attacks] (http://www.ccnpguide.com/understanding-vlan-hopping-attacks/)
 * [Сети для самых маленьких. Коммутация] (http://habrahabr.ru/post/138043/)
+* [MicroNugget: Private VLANs] (http://www.youtube.com/watch?v=p05_xQ7eZW4)
