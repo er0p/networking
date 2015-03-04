@@ -47,3 +47,4 @@
 * [Understanding VLAN Hopping Attacks] (http://www.ccnpguide.com/understanding-vlan-hopping-attacks/)
 * [Сети для самых маленьких. Коммутация] (http://habrahabr.ru/post/138043/)
 * [MicroNugget: Private VLANs] (http://www.youtube.com/watch?v=p05_xQ7eZW4)
+* [RFC 5517. Cisco Systems' Private VLANs: Slable Security in a Multi-Client Environment] (https://tools.ietf.org/html/rfc5517)
