@@ -30,7 +30,8 @@
       * DTP
    * Формат кадров IEEE 802.1Q
    * Маршрутизация VLAN
-   * Private VLANs
+   * Private VLAN
+   * Q-in-Q VLAN
    * Атаки на VLAN
       * Базовая атака VLAN Hopping
       * Двойная инкапсуляция
