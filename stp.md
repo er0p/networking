@@ -21,14 +21,15 @@
   * Перехват пакетов
 5. Механизмы защиты STP
   * Port Fast
-  * BPDU Guard    
+  * BPDU Guard 
+  * BPDU Filter
   * Root Guard
   * Loop Guard
-  * BPDU Filter
 6. Агрегирование каналов
   * Назначение
   * Алгоритмы балансировки 
   * Методы конфигурирования
+  * Механизм STP EtherChannel Guard
   
 # Материалы
 * [Yersinia. Framework for layer 2 attacks] (http://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Berrueta_Andres/BH_EU_05_Berrueta_Andres.pdf)
