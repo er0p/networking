@@ -34,3 +34,4 @@
 * [Yersinia. Framework for layer 2 attacks] (http://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Berrueta_Andres/BH_EU_05_Berrueta_Andres.pdf)
 * [Сети для самых маленьких. STP](http://habrahabr.ru/post/143768/)
 * [Understanding MSTP] (http://blog.ine.com/2010/02/22/understanding-mstp/)
+* [Принципы работы механизмов STP loop guard, root guard, BPDU filter](http://www.youtube.com/watch?v=R8gU6wJYiO4)
