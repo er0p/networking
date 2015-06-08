@@ -1,6 +1,6 @@
 # Компьютерные сети
 
-# [Протокол STP] (http://en.wikipedia.org/wiki/Spanning_Tree_Protocol)
+## [Протокол STP] (http://en.wikipedia.org/wiki/Spanning_Tree_Protocol)
 
 1. Причины и последствия возникновения петель на канальном уровне
 2. Принципы работы протокола STP (IEEE 802.1d)
