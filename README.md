@@ -9,18 +9,18 @@
 ## Программа курса
 
 1. [Введение] (intro.md)
-1. [Технологии ЛВС](lan.md)
-1. [Протокол STP] (stp.md)
-1. [Протокол IP] (ip.md)
-1. [Маршрутизация] (routing.md)
-1. [Протокол ICMP](icmp.md)
-1. [Протоколы TCP и UDP](tcp_udp.md)
-1. [Сетевая трансляция адресов] (nat.md)
-1. [Протоколы прикладного уровня] (applications.md)
-1. [Базовый MPLS] (mpls.md)
-1. [Качество обслуживания] (qos.md)
-1. [Балансировка нагрузки] (lb.md)
-1. [Основы дизайна компьютерных сетей] (design.md)
+2. [Технологии ЛВС](lan.md)
+3. [Протокол STP] (stp.md)
+4. [Протокол IP] (ip.md)
+5. [Маршрутизация] (routing.md)
+6. [Протокол ICMP](icmp.md)
+7. [Протоколы TCP и UDP](tcp_udp.md)
+8. [Сетевая трансляция адресов] (nat.md)
+9. [Протоколы прикладного уровня] (applications.md)
+10. [Базовый MPLS] (mpls.md)
+11. [Качество обслуживания] (qos.md)
+12. [Балансировка нагрузки] (lb.md)
+13. [Основы дизайна компьютерных сетей] (design.md)
 
 ## Задания
 * [Задания к зачету](assignments.md)
@@ -42,8 +42,11 @@
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
 * [Wireshark Sample Captures](http://wiki.wireshark.org/SampleCaptures)
 
-### Видео
+### Курсы
 * [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
 * [Stanford Online. An Introduction to Computer Networking] (https://class.stanford.edu/courses/Engineering/Networking/Winter2014/)
 * [Cisco CCNA Course] (http://www.youtube.com/user/NetworKingInc)
 * [David Wetherall. Video lectures for Computer Networks 5/E] (http://media.pearsoncmg.com/ph/streaming/esm/tanenbaum5e_videonotes/tanenbaum_videoNotes.html)
+
+### Видео
+* [Explore a Google data center with Street View] (https://www.youtube.com/watch?v=avP5d16wEp0)
