@@ -41,6 +41,7 @@
 ### Справочная литература
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
 * [Wireshark Sample Captures](http://wiki.wireshark.org/SampleCaptures)
+* [Daniel Miessler. A tcpdump Tutorial and Primer with Examples](https://danielmiessler.com/study/tcpdump/)
 
 ### Курсы
 * [Coursera. Computer Networks] (https://www.coursera.org/course/comnetworks)
