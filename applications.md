@@ -17,7 +17,7 @@
    * Сжатие доменных имен
    * Типы серверов имен
    * Атаки на DNS
-     * [Атака Камински] (http://spectrum.ieee.org/images/oct08/images/phish03.pdf) 
+     * [Атака Камински](http://spectrum.ieee.org/images/oct08/images/phish03.pdf) 
      * DDoS-атаки на основе DNS
    * Расширение DNSSEC
 3. Протокол HTTP
