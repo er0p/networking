@@ -14,14 +14,14 @@
   * Инкапсуляция (Incapsulation)
   * Мультиплексирование (Multiplexing)
 2. Основные модели сетевого взаимодействия
-  * Модель ISO/OSI
-  * Модель ARPANET
-  * Модель клиент-сервер
-  * Модель peer-to-peer  
+   * Модель ISO/OSI
+   * Модель ARPANET
+   * Модель клиент-сервер
+   * Модель peer-to-peer  
 3. Классификация сетей
-  * PAN, WLAN, LAN, MAN, WAN, VPN 
-  * Internet, Extranet, Intranet, DMZ
-  * Топологии сетей
+   * PAN, WLAN, LAN, MAN, WAN, VPN 
+   * Internet, Extranet, Intranet, DMZ
+   * Топологии сетей
 4. [Несколько миллисекунд HTTPS соединения](http://habrahabr.ru/post/191954/)
 
 # Материалы
