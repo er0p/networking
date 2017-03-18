@@ -22,6 +22,6 @@
     * Shaping
     * Policing
 5. Протоколы сигнализации QoS
-  * RSVP
+   * RSVP
   
   # Материалы
