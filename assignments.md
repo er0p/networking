@@ -4,7 +4,7 @@
 
 ### Cisco IOS CLI 
 
-Написать сценарий, эмулирующий [командную строку Cisco IOS] (http://www.cisco.com/c/en/us/td/docs/ios/fundamentals/command/reference/cf_book.html) в рамках конфигурирования основных сетевых параметров операционной системы. Реализовать следующие команды:
+Написать сценарий, эмулирующий [командную строку Cisco IOS](http://www.cisco.com/c/en/us/td/docs/ios/fundamentals/command/reference/cf_book.html) в рамках конфигурирования основных сетевых параметров операционной системы. Реализовать следующие команды:
   * show ip route - вывод таблицы маршрутизации
   * show interfaces - вывод информации обо всех сетевых интерфейсах
   * show interface {ethernet | loopback} *number* -  вывод информации о заданном интерфейсе 
@@ -22,37 +22,39 @@
 
 ### BPF-фильтры
 
-Реализовать [BPF-фильтры] (https://blog.cloudflare.com/bpf-the-forgotten-bytecode/) для [tcpdump] (http://www.tcpdump.org/), решающие следующие задачи:
+Реализовать [BPF-фильтры](https://blog.cloudflare.com/bpf-the-forgotten-bytecode/) для [tcpdump](http://www.tcpdump.org/), решающие следующие задачи:
  * обнаружение использования протокола SSLv3
  * обнаружение сканирования портов методом "рождественской елки"
  * обнаружение аномальных входящих сетевых IP-дейтаграмм из Интеренет в сеть 200.0.0.0/24
 
 ### Анализ трассировок Wireshark
 
-Проанализировать [трассировки wireshark] (/files) и объяснить, что проиходит в сети.
+Проанализировать [трассировки wireshark](/files) и объяснить, что проиходит в сети.
 
 ### Сканер
 
-Используя [Scapy] (http://www.secdev.org/projects/scapy/), написать скрипт, выполняющий [идентификацию] (http://nmap.org/book/man-host-discovery.html) узла по его DNS-имени или IP-адресу следующими методами:
+Используя [Scapy](http://www.secdev.org/projects/scapy/), написать скрипт, выполняющий [идентификацию](http://nmap.org/book/man-host-discovery.html) узлов сети по его DNS-имени или IP-адресу следующими методами:
   * ICMP Ping
   * TCP Ping
   * UDP Discovery
   * ARP Discovery
   
 Вход: 
- * IP-адрес или DNS-имя идентифицируемого узла
+ * IP-адрес сети, IP-адрес или DNS-имя идентифицируемого узла
  * метод идентификации
  * перечень портов для TCP- и UDP-методов
 
-Выход: доступен ли данный узел или нет
+Выход: перечень доступных узлов
 
 Пример:
 
 ```
-# discovery a.b.c.d --icmp 10.10.34.34
-Host 10.10.34.34 is alive
+# discovery --icmp 10.10.34.0/24
+Host 10.10.34.10 is alive
+Host 10.10.34.15 is alive
+Host 10.10.34.50 is alive
 
-# discovery a.b.c.d --tcp --ports 22,25,80,443 10.10.34.34
+# discovery --tcp --ports 22,25,80,443 10.10.34.34
 Host 10.10.34.34 is alive
 ```
 
@@ -67,7 +69,7 @@ Host 10.10.34.34 is alive
 Пример:
 
 ```
-# mtudiscovery a.b.c.d
+# mtudiscovery 10.34.34.34
 MTU is 1400
 ```
 
@@ -86,14 +88,14 @@ MTU is 1400
 Пример:
 
 ```
-# tcptraceroute a.b.c.d -n 40
+# tcptraceroute 1.1.1.1 -n 40
 
 a.b.c.d route:
 1. 10.10.10.1 - 10 msec
 2. *
 3. *
 4. 10.0.0.1 - 12 msec
-5. a.b.c.d  - 15 msec
+5. 1.1.1.1  - 15 msec
 ```
 
 ### Протокол SUDP+
@@ -106,4 +108,4 @@ a.b.c.d route:
 
 ### HTTP-прокси*
 
-Реализовать HTTP-прокси с использованием фрэймворка [Twisted](https://github.com/twisted/twisted).
+Реализовать обратный HTTP-прокси (reverse proxy) с использованием фрэймворка [Twisted](https://github.com/twisted/twisted). HTTP-прокси должен иметь возможность балансировки нагрузки, добавления HTTP-заголовков, изменения HTML-документов.
