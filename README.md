@@ -53,3 +53,4 @@
 * [Explore a Google data center with Street View](https://www.youtube.com/watch?v=avP5d16wEp0)
 * [Introduction to Facebook's data center fabric](https://www.youtube.com/watch?v=mLEawo6OzFM)
 * [Facebook's Data Center Fabric](https://www.youtube.com/watch?v=kcI3fGEait0)
+* [Network concepts introduction & wireshark workshop (SHA2017)](https://www.youtube.com/watch?v=LB53L6IKA_Y)
