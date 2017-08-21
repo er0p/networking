@@ -20,7 +20,7 @@
 10. [Базовый MPLS](mpls.md)
 11. [Качество обслуживания](qos.md)
 12. [Балансировка нагрузки](lb.md)
-13. [Основы дизайна компьютерных сетей](design.md)
+13. [Паттерны проектирования компьютерных сетей](design.md)
 
 ## Задания
 * [Задания к зачету](assignments.md)
@@ -34,9 +34,9 @@
 * [Kevin R. Fall, W. Richard Stevens. TCP/IP Illustrated, Volume 1: The Protocols. Second edition](http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_sim_b_8?ie=UTF8&refRID=0ZFEHB43F6Q7QWH4MQXC)
 * [Э. Таненбаум, Д. Уезеролл. Компьютерные сети. 5-е издание](http://www.ozon.ru/context/detail/id/20216983/)
 * [Каверзные сетевые вопросы на Хабрахабр](http://habrahabr.ru/post/189268/)
-* [В. Олифер, Н. Олифер. Компьютерные сети. Принципы, технологии, протоколы. 4-е издание](http://www.ozon.ru/context/detail/id/20217199/)
 * [Сети для самых маленьких на Хабрахабр](http://linkmeup.ru/blog/11.html)
 * [What happens when you type google.com into your browser's address box and press enter?](https://github.com/alex/what-happens-when)
+* [Robert Graham. An alternate explanation of the OSI model](http://blog.erratasec.com/2007/04/alternate-explanation-of-osi-model.html)
 
 ### Справочная литература
 * [The TCP-IP Guide](http://www.tcpipguide.com/)
