@@ -7,6 +7,7 @@
 3. Метод предотвращения петель
 4. Фрагментация дейтаграмм
    * Алгоритм Path MTU Discovery
+   * [Особенности и случаи фрагментации](https://blog.cloudflare.com/ip-fragmentation-is-broken/?utm_content=buffer715f4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 5. Адресация
    * Классовая модель  
    * Адресация посетей
