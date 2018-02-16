@@ -49,6 +49,8 @@
 * [Cisco CCNA Course](http://www.youtube.com/user/NetworKingInc)
 * [David Wetherall. Video lectures for Computer Networks 5/E](http://media.pearsoncmg.com/ph/streaming/esm/tanenbaum5e_videonotes/tanenbaum_videoNotes.html)
 
+### Статьи
+* [Эдди Мартин. Понимание модели OSI](https://habrahabr.ru/company/ua-hosting/blog/348934/)
 ### Видео
 * [Explore a Google data center with Street View](https://www.youtube.com/watch?v=avP5d16wEp0)
 * [Introduction to Facebook's data center fabric](https://www.youtube.com/watch?v=mLEawo6OzFM)
